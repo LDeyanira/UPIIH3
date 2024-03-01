@@ -1,0 +1,15 @@
+CREATE TABLE publicaciones (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    Titulo VARCHAR(255) NOT NULL,
+    Descripcion TEXT NOT NULL,
+    Fecha DATE,
+    URL VARCHAR(255),
+    Archivo VARCHAR(255),
+    Categoria VARCHAR(50)
+);
+CREATE TABLE login{
+    usuario VARCHAR //insert usuario
+    password VARCHAR// insert password
+
+}
+ 
